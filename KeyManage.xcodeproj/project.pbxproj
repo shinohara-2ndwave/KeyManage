@@ -13,6 +13,7 @@
 		3344F9A72652547C005C99DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3344F9A62652547C005C99DA /* Preview Assets.xcassets */; };
 		3344F9B22652547D005C99DA /* KeyManageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344F9B12652547D005C99DA /* KeyManageTests.swift */; };
 		3344F9BD2652547D005C99DA /* KeyManageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344F9BC2652547D005C99DA /* KeyManageUITests.swift */; };
+		33AFF90226534464008F4899 /* KeyManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFF90126534463008F4899 /* KeyManageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3344F9B82652547D005C99DA /* KeyManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3344F9BC2652547D005C99DA /* KeyManageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManageUITests.swift; sourceTree = "<group>"; };
 		3344F9BE2652547D005C99DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AFF90126534463008F4899 /* KeyManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3344F99F26525477005C99DA /* KeyManageApp.swift */,
 				3344F9A126525477005C99DA /* ContentView.swift */,
+				33AFF90126534463008F4899 /* KeyManageView.swift */,
 				3344F9A32652547C005C99DA /* Assets.xcassets */,
 				3344F9A82652547C005C99DA /* Info.plist */,
 				3344F9A52652547C005C99DA /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				3344F9A226525477005C99DA /* ContentView.swift in Sources */,
 				3344F9A026525477005C99DA /* KeyManageApp.swift in Sources */,
+				33AFF90226534464008F4899 /* KeyManageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"KeyManage/Preview Content\"";
-				DEVELOPMENT_TEAM = J4L7KTX2CC;
+				DEVELOPMENT_TEAM = V234R4X23L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = KeyManage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -441,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"KeyManage/Preview Content\"";
-				DEVELOPMENT_TEAM = J4L7KTX2CC;
+				DEVELOPMENT_TEAM = V234R4X23L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = KeyManage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
