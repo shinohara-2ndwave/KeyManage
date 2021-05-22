@@ -218,6 +218,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 3344F99326525477005C99DA;
 			productRefGroup = 3344F99D26525477005C99DA /* Products */;
@@ -431,7 +432,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "second-wave.KeyManage";
+				PRODUCT_BUNDLE_IDENTIFIER = shinohara.KeyManage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
